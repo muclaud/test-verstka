@@ -18,7 +18,7 @@ export default function HeaderBarProducts() {
 
         <div className='height-52'>
 
-            <div className='wrapper-7' >
+            <div className='grid-7' >
                 <div className="">
                     <Link to='#' className="">
                         <div className="">

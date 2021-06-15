@@ -1,7 +1,5 @@
 
-
-
-.wrapper-7 {
+.grid-7 {
     margin: 1em auto; 
    display: grid;
    grid-template-columns: repeat(7, 1fr);
