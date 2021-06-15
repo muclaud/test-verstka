@@ -1,0 +1,35 @@
+
+
+.grid-container{
+    max-width: 334px;
+    max-height: 215px;
+    background: #FFFFFF;
+box-shadow: 0px 2px 6px rgba(26, 35, 59, 0.120957);
+border-radius: 6px;
+}
+
+.card-descr{
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 22px;
+color: #1A233B;
+}
+
+.card-text{
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 26px;
+color: #35415E;
+
+}
+
+.padding-5 {
+    padding: 20px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}

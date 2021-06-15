@@ -1,0 +1,44 @@
+
+.wrapper-2 {
+    margin: 2em auto; 
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-column-gap: 10px;
+   grid-row-gap: 1em;
+   max-width: 1080px;
+}
+
+.margin-auto {
+    margin: auto;
+}
+
+.header-1 {
+  text-align: start;
+  color: #1A233B;
+  font-style: normal;
+font-weight: 800;
+font-size: 60px;
+line-height: 77px;
+}
+
+.paragraph-text{
+    font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+color: #35415E;
+}
+
+.freetreealtext{
+
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 30px;
+
+color: #35415E;
+
+}
+

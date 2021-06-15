@@ -1,0 +1,36 @@
+.wrapper-trycloud {
+    max-width: 1440px;
+max-height: 374px;
+background: #0460BA;
+box-shadow: 0px 2px 6px rgba(26, 35, 59, 0.120957);
+}
+
+.flex-trycloud {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px;
+}
+.try-header {
+    padding: 10px;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: 800;
+font-size: 34px;
+line-height: 28px;
+/* identical to box height, or 82% */
+
+
+color: #FFFFFF;
+}
+
+.try-text{
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+text-align: center;
+color: #DEE7FF;
+
+}

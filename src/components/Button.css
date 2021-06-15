@@ -1,0 +1,31 @@
+
+.button{
+    
+    display:inline-block;
+    padding:16px 32px;
+    vertical-align:middle;
+    overflow:hidden;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 5px;
+    margin-right:5px;
+}
+
+.button-blue {
+    border:1px solid #FFFFFF;
+    background-color:#0460BA;
+    color: #FFFFFF;
+}
+
+.button-white {
+    border:1px solid #0460BA;
+    background-color:#FFFFFF;
+    color: #0460BA;
+}
+
+.button:hover{
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),
+                0 6px 20px 0 rgba(0,0,0,0.19)
+}
