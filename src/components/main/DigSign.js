@@ -8,7 +8,7 @@ import check from '../../assets/icons/checkmark-circle-2.png'
 
 export default function DigSign() {
     return (
-        <div className='wrapper-2' >
+        <div className='wrapper-2 padding-5' >
             <div className='margin-auto'>
                 <div className='container-1'>
                     <h2 className='header-1'>Digital Signage</h2>

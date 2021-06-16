@@ -8,7 +8,7 @@ import ButtonGroup from '../ButtonGroup'
 export default function HeaderNavigation() {
     return (
         <div>
-            <div className='grid-3 padding-20'>
+            <div className='grid-3 padding-5'>
                 <div className='margin-auto'>
                     <img src={cloudShow} alt='cloudShow'></img>
                 </div>

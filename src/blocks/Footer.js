@@ -11,7 +11,7 @@ export default function Footer() {
     return (
         <div className='footer-wrapper'>
             <div className='padding-20'>
-                <div className='grid-5'>
+                <div className='flex'>
                     <div className='hidden' style={{ textAlign: 'center' }}>
                         <img src={label} alt='label'></img>
                     </div>

@@ -14,7 +14,7 @@ import path from '../../assets/icons/Path.png'
 
 export default function HeaderBarProducts() {
     return (
-        <div className='flex-header' >
+        <div className='padding-5 flex-header' >
 
             <div className="flex-item">
                 <img src={binaryFort} alt='Binary Fortress'></img>

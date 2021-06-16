@@ -19,7 +19,7 @@ export default function Sysops() {
                     <p className='sysops-text'>I also run a Google Slideshow overlaid on the spreadsheet using the picture-in-picture function to cycle in-store ads.</p>
                 </div>
                 <div >
-                    <div className='flex'><span className='author-name'>Brandon H</span>
+                    <div className='flex-stars'><span className='author-name'>Brandon H</span>
                         <img className='star-style' src={star} alt='star'></img><img className='star-style' src={star} alt='star'></img><img className='star-style' src={star} alt='star'></img><img className='star-style' src={star} alt='star'></img><img className='star-style' src={star} alt='star'></img></div>
                 </div>
 

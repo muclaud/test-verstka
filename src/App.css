@@ -74,13 +74,6 @@
   align-items: center;
 }
 
-.grid-5 {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-column-gap: 10px;
-  grid-row-gap: 1em;
-}
-
 .grid-3::after {
   height: 60px;
 }
@@ -90,7 +83,7 @@
 
 .button {
   display: inline-block;
-  padding: 16px 32px;
+  padding: 16px 24px;
   vertical-align: middle;
   overflow: hidden;
   font-family: Nunito Sans;
@@ -294,9 +287,15 @@
   padding: 2em;
 }
 
+.flex-stars {
+  display: flex;
+  align-items: center;
+}
+
 .flex {
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 
 .spacerDiv {
@@ -418,7 +417,7 @@
   }
 
   .height-52 {
-    max-height: 25px;
+    height: 42px;
   }
   .hidden {
     display: none;
@@ -610,20 +609,13 @@
     max-width: 700px;
   }
 
-  .grid-5 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 10px;
-    grid-row-gap: 1em;
-  }
-
   .button {
     display: inline-block;
-    padding: 14px 28px;
+    padding: 14px 24px;
     vertical-align: middle;
     overflow: hidden;
     border-radius: 5px;
-    margin-right: 5px;
+    margin-right: 3px;
   }
 
   .header-2 {
@@ -808,13 +800,6 @@
     grid-column-gap: 10px;
     grid-row-gap: 1em;
     max-width: 980px;
-  }
-
-  .grid-5 {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-column-gap: 10px;
-    grid-row-gap: 1em;
   }
 
   .button {
