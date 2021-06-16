@@ -1,6 +1,5 @@
 import React from 'react'
 
-import './Spacer.css'
 
 import instagram from '../../assets/company-logo/594d4f77e5a0d74fa13993b12bfb5c13bc17ff16.png'
 import twitter from '../../assets/company-logo/dcee2570ef522bfe4cec7caa994de1b30978d288.png'
@@ -10,7 +9,7 @@ import facebook from '../../assets/company-logo/e1ae149381bd153db85adb10e9c7ddd1
 
 export default function Spacer() {
     return (
-        <div className='spacerDiv'>
+        <div className='spacerDiv hidden'>
             <div className='spacerDiv'>
                 <div className='grid-4'>
                     <div><img className='background-img' src={instagram} alt='background-img'></img></div>

@@ -9,7 +9,6 @@ import layers from '../../assets/icons/Group_93.png'
 import widgets from '../../assets/icons/Group_94.png'
 import thunder from '../../assets/icons/Group_95.png'
 
-import './CloudShow.css'
 
 
 export default function CloudShow() {

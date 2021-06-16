@@ -4,7 +4,6 @@ import React from 'react'
 import cloudShow from '../../assets/brand/Group_23.png'
 import ButtonGroup from '../ButtonGroup'
 
-import './HeaderNavigation.css'
 
 export default function HeaderNavigation() {
     return (
@@ -13,9 +12,8 @@ export default function HeaderNavigation() {
                 <div className='margin-auto'>
                     <img src={cloudShow} alt='cloudShow'></img>
                 </div>
-                <div className='margin-auto'>
+                <div className='margin-auto hidden'>
                     <div className='flex-header'>
-
                         <div className='flex-item'>
                             Features
                         </div>

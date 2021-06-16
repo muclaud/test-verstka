@@ -3,7 +3,6 @@ import React from 'react'
 import label from '../../assets/brand/Path_2.png'
 import check from '../../assets/icons/checkmark-circle-2.png'
 
-import './TryCloud.css'
 
 export default function TryCloud() {
     return (

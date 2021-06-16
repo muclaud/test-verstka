@@ -11,7 +11,6 @@ import voiceBot from '../../assets/icons/VoiceBot.png'
 import wallpaperFusion from '../../assets/icons/WallpaperFusion.png'
 import path from '../../assets/icons/Path.png'
 
-import './HeaderBarProducts.css'
 
 export default function HeaderBarProducts() {
     return (
@@ -19,38 +18,38 @@ export default function HeaderBarProducts() {
 
             <div className="flex-item">
                 <img src={binaryFort} alt='Binary Fortress'></img>
-                Binary Fortress
-                <img src={path} alt='path'></img>
+                <span className="hidden">Binary Fortress</span>
+                <img className="hidden" src={path} alt='path'></img>
             </div>
 
             <div className="flex-item">
                 <img src={displayFusion} alt='DisplayFusion'></img>
-                DisplayFusion
+                <span className="hidden">DisplayFusion</span>
             </div>
 
             <div className="flex-item">
                 <img src={checkCenter} alt='CheckCentral'></img>
-                <span>CheckCentral</span>
+                <span className="hidden">CheckCentral</span>
             </div>
 
             <div className="flex-item">
                 <img src={clipboardFusion} alt='ClipboardFusion'></img>
-                <span>ClipboardFusion</span>
+                <span className="hidden">ClipboardFusion</span>
             </div>
 
             <div className="flex-item">
                 <img src={fileSeek} alt='FileSeek'></img>
-                <span>FileSeek</span>
+                <span className="hidden">FileSeek</span>
             </div>
 
             <div className="flex-item">
                 <img src={voiceBot} alt='VoiceBot'></img>
-                <span>VoiceBot</span>
+                <span className="hidden">VoiceBot</span>
             </div>
 
             <div className="flex-item">
                 <img src={wallpaperFusion} alt='WallpaperFusion'></img>
-                <span>WallpaperFusion</span>
+                <span className="hidden">WallpaperFusion</span>
             </div>
 
         </div>

@@ -1,6 +1,5 @@
 import React from 'react'
 
-import './GridCard.css'
 
 export default function GridCard(props) {
     return (

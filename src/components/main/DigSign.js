@@ -5,13 +5,12 @@ import React from 'react'
 import digSignImage from '../../assets/images/Group_28_Copy.png'
 import check from '../../assets/icons/checkmark-circle-2.png'
 
-import './DigSign.css'
 
 export default function DigSign() {
     return (
-        <div className='wrapper-2 ' >
+        <div className='wrapper-2' >
             <div className='margin-auto'>
-                <div>
+                <div className='container-1'>
                     <h2 className='header-1'>Digital Signage</h2>
                     <h2 className='header-1'>Made Easy</h2>
                     <p className='paragraph-text'>Turn any screen into a digital sign in minutes with CloudShow. Trusted by businesses worldwide, see how CloudShow can help your business today</p>
@@ -24,7 +23,7 @@ export default function DigSign() {
                     </div>
                 </div>
             </div>
-            <div className='margin-auto'><img src={digSignImage} alt='digSignImage'></img></div>
+            <div className='margin-auto hidden'><img src={digSignImage} alt='digSignImage'></img></div>
         </div>
     )
 }

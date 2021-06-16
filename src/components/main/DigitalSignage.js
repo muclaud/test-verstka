@@ -5,7 +5,7 @@ import calendar from '../../assets/images/Group_481.svg'
 import weather from '../../assets/images/Group_482.svg'
 import promotional from '../../assets/images/Group_483.svg'
 
-import './CloudShow.css'
+
 
 
 
