@@ -8,7 +8,7 @@ border-radius: 11px;
 }
 
 .padding-20 {
-    padding: 40px;
+    padding: 3em;
 }
 
 .sysops-text{
@@ -33,4 +33,12 @@ padding-right: 5px;
 
 .star-style{
     padding: 0 2px;
+}
+
+.label {
+position: relative;
+max-width: 316px;
+max-height: 240px;
+left: 72%;
+bottom: 190px;
 }

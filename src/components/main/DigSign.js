@@ -16,9 +16,9 @@ export default function DigSign() {
                     <h2 className='header-1'>Made Easy</h2>
                     <p className='paragraph-text'>Turn any screen into a digital sign in minutes with CloudShow. Trusted by businesses worldwide, see how CloudShow can help your business today</p>
                     <div className='grid-3'>
-                        <div className='button-blue button'>Try it free</div>
+                        <div className='button-blue button' style={{ height: 15, width: 70 }}>Try it free</div>
                         <div>
-                            <div><img src={check} alt='icon'></img>
+                            <div className='flex'><img src={check} alt='icon'></img>
                                 <span className='freetreealtext'>60-day Enterprise free trial</span></div>
                         </div>
                     </div>

@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 
 import cloudShow from '../../assets/brand/Group_23.png'
@@ -15,48 +14,22 @@ export default function HeaderNavigation() {
                     <img src={cloudShow} alt='cloudShow'></img>
                 </div>
                 <div className='margin-auto'>
-                    <div className='grid-5'>
-                        <div>
-                            <Link to="#" >
-                                <div >
-                                    Features
-                                </div>
-                            </Link>
+                    <div className='flex-header'>
+
+                        <div className='flex-item'>
+                            Features
                         </div>
-                        <div>
-                            <Link to="#" >
-
-                                <div >
-                                    <span>How it Works</span>
-                                </div>
-                            </Link>
+                        <div className='flex-item'>
+                            <span>How it Works</span>
                         </div>
-                        <div>
-                            <Link to="#" >
-                                <div >
-
-                                    <span>Devices & Downloads</span>
-                                </div>
-
-                            </Link>
+                        <div className='flex-item'>
+                            <span>Devices & Downloads</span>
                         </div>
-                        <div>
-                            <Link to="#" >
-                                <div >
-
-                                    <span>Apps & Content</span>
-                                </div>
-
-                            </Link>
+                        <div className='flex-item'>
+                            <span>Apps & Content</span>
                         </div>
-                        <div>
-                            <Link to="#" >
-                                <div >
-
-                                    <span>Pricing</span>
-                                </div>
-
-                            </Link>
+                        <div className='flex-item'>
+                            <span>Pricing</span>
                         </div>
                     </div>
                 </div>

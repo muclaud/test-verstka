@@ -1,9 +1,9 @@
 import React from 'react'
 
-import dashboards from '../../assets/images/5d0a907169d4aa19dc547fb6e04867a6e1255f3d.png'
-import calendar from '../../assets/images/b3993cf8a93ed2d3c1e78d35b8f0e41e40cdefad.png'
-import weather from '../../assets/images/a9e79f28983733175f92a48d4585871194211a87.png'
-import promotional from '../../assets/images/bec8861f4ba08741024d53ba71ec95a675249dfb.png'
+import dashboards from '../../assets/images/Group_48.svg'
+import calendar from '../../assets/images/Group_481.svg'
+import weather from '../../assets/images/Group_482.svg'
+import promotional from '../../assets/images/Group_483.svg'
 
 import './CloudShow.css'
 

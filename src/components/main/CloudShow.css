@@ -30,7 +30,7 @@ color: #1A233B;
 }
 
 .padding-50 {
-  padding: 50px;
+  padding: 4em;
 }
 
 .linkView{
@@ -64,18 +64,16 @@ border-radius: 6px;
   text-align: center;
   justify-content: center;
   flex-direction: column;
+  
 }
 
 .card-image {
-  width: 365px;
+max-width: 378px;
 height: 220px;
-display: block;
 margin: 25px auto;
 }
 
 .card-header{
-
-
 font-style: normal;
 font-weight: bold;
 font-size: 22px;

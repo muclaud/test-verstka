@@ -4,7 +4,9 @@
    grid-template-columns: 1fr 2fr 1fr;
    grid-column-gap: 10px;
    grid-row-gap: 1em;
-   max-width: 1080px
+   max-width: 1080px;
+   justify-items: center;
+   align-items: center;
 }
 
 .grid-5 {
@@ -14,9 +16,6 @@
    grid-row-gap: 1em
 }
 
-.margin-auto {
-    margin: auto;
-};
 
 .grid-3::after{
     height: 60px;

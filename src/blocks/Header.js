@@ -5,8 +5,7 @@ import HeaderBarProducts from '../components/header/HeaderBarProducts'
 
 export default function Header() {
     return (
-
-        <div>
+        <div className='height-52'>
             <HeaderBarProducts />
         </div>
 

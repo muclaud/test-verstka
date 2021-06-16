@@ -1,0 +1,26 @@
+
+.spacerDiv {
+    background-color: #ffffff;
+    max-height: 200px;
+
+}
+
+.background-img {
+    max-height: 70px;
+    margin: 4em auto;
+    filter: contrast(0%);
+  -webkit-filter: contrast(0%);
+  opacity: 40%;
+
+}
+
+.grid-4 {
+  
+   margin: 2em auto; 
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   grid-column-gap: 5px;
+   max-width: 1400px;
+   justify-items: center;
+
+}

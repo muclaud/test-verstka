@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+
 
 
 import binaryFort from '../../assets/icons/BinaryFortressLight.png'
@@ -15,72 +15,42 @@ import './HeaderBarProducts.css'
 
 export default function HeaderBarProducts() {
     return (
+        <div className='flex-header' >
 
-        <div className='height-52'>
+            <div className="flex-item">
+                <img src={binaryFort} alt='Binary Fortress'></img>
+                Binary Fortress
+                <img src={path} alt='path'></img>
+            </div>
 
-            <div className='grid-7' >
-                <div className="">
-                    <Link to='#' className="">
-                        <div className="">
-                            <img src={binaryFort} alt='Binary Fortress'></img>
-                            Binary Fortress
-                            <img src={path} alt='path'></img>
-                        </div>
-                    </Link>
-                </div>
-                <div>
-                    <Link to="#">
+            <div className="flex-item">
+                <img src={displayFusion} alt='DisplayFusion'></img>
+                DisplayFusion
+            </div>
 
-                        <div className="">
-                            <img src={displayFusion} alt='DisplayFusion'></img>
-                            DisplayFusion
-                        </div>
-                    </Link>
-                </div>
-                <div>
-                    <Link to="#" >
-                        <div className="">
-                            <img src={checkCenter} alt='CheckCentral'></img>
-                            <span>CheckCentral</span>
-                        </div>
+            <div className="flex-item">
+                <img src={checkCenter} alt='CheckCentral'></img>
+                <span>CheckCentral</span>
+            </div>
 
-                    </Link>
-                </div>
-                <div>
-                    <Link to="#">
-                        <div className="">
-                            <img src={clipboardFusion} alt='ClipboardFusion'></img>
-                            <span>ClipboardFusion</span>
-                        </div>
+            <div className="flex-item">
+                <img src={clipboardFusion} alt='ClipboardFusion'></img>
+                <span>ClipboardFusion</span>
+            </div>
 
-                    </Link>
-                </div>
-                <div>
-                    <Link to="#" >
-                        <div className="">
-                            <img src={fileSeek} alt='FileSeek'></img>
-                            <span>FileSeek</span>
-                        </div>
+            <div className="flex-item">
+                <img src={fileSeek} alt='FileSeek'></img>
+                <span>FileSeek</span>
+            </div>
 
-                    </Link>
-                </div>
-                <div>
-                    <Link to="#">
-                        <div className="">
-                            <img src={voiceBot} alt='VoiceBot'></img>
-                            <span>VoiceBot</span>
-                        </div>
+            <div className="flex-item">
+                <img src={voiceBot} alt='VoiceBot'></img>
+                <span>VoiceBot</span>
+            </div>
 
-                    </Link>
-                </div>
-                <div>
-                    <Link to="#" >
-                        <div className="">
-                            <img src={wallpaperFusion} alt='WallpaperFusion'></img>
-                            <span>WallpaperFusion</span>
-                        </div>
-                    </Link>
-                </div>
+            <div className="flex-item">
+                <img src={wallpaperFusion} alt='WallpaperFusion'></img>
+                <span>WallpaperFusion</span>
             </div>
 
         </div>

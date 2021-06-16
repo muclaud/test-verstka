@@ -25,7 +25,7 @@ export default function TryCloud() {
 
                 </div>
                 <div>
-                    <div><img src={check} alt='icon'></img>
+                    <div className='flex' ><img src={check} alt='icon'></img>
                         <span className='freetreealtext' style={{ color: 'white' }}>60-day Enterprise free trial</span></div>
                 </div>
             </div>
