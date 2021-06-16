@@ -149,7 +149,7 @@
 }
 
 .padding-50 {
-  padding: 4em;
+  padding: 2em;
 }
 
 .linkView {
@@ -211,6 +211,18 @@
 
 .shadow-4 {
   filter: drop-shadow(0px 2px 23px rgba(26, 35, 59, 0.423569));
+}
+
+.spacer {
+  height: 120px;
+  background-image: url("../src/assets/company-logo/594d4f77e5a0d74fa13993b12bfb5c13bc17ff16.png"),
+    url("../src/assets/company-logo/dcee2570ef522bfe4cec7caa994de1b30978d288.png"),
+    url("../src/assets/company-logo/e07092cdf1f84e5c3f2819bef8482ce6227e8d7c.png"),
+    url("../src/assets/company-logo/e1ae149381bd153db85adb10e9c7ddd18bd57fec.png");
+  background-color: #ffffff;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: auto 60px;
+  background-position: 2% 50%, 30% 50%, 60% 50%, 95% 50%;
 }
 
 .wrapper-2 {
@@ -294,26 +306,18 @@
 
 .background-img {
   max-height: 70px;
-  margin: 4em auto;
+  padding: 3em auto;
   filter: contrast(0%);
   -webkit-filter: contrast(0%);
-  opacity: 95%;
-}
-
-.grid-4 {
-  margin: 2em auto;
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-column-gap: 5px;
-  max-width: 1400px;
-  justify-items: center;
 }
 
 .wrapper-sys {
   margin: 0 auto;
   max-width: 1080px;
-  max-height: 383px;
+  background-image: url("../src/assets/brand/Path_2.svg");
   background-color: #0460ba;
+  background-position: 99% 99%;
+  background-repeat: no-repeat;
   box-shadow: 0px 2px 6px rgba(26, 35, 59, 0.120957);
   border-radius: 11px;
 }
@@ -354,7 +358,6 @@
 
 .wrapper-trycloud {
   max-width: 1440px;
-  max-height: 374px;
   background: #0460ba;
   box-shadow: 0px 2px 6px rgba(26, 35, 59, 0.120957);
 }
@@ -415,7 +418,7 @@
   }
 
   .height-52 {
-    height: 42px;
+    max-height: 25px;
   }
   .hidden {
     display: none;
@@ -514,14 +517,6 @@
     margin: 0.3em auto;
   }
 
-  .grid-4 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-column-gap: 5px;
-    max-width: 560px;
-    justify-items: center;
-  }
-
   .padding-20 {
     padding: 0.3em;
   }
@@ -569,6 +564,10 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
+  .spacer {
+    display: none;
+  }
+
   .container {
     margin: 5% auto;
     max-width: 760px;
@@ -711,14 +710,6 @@
     margin: 0.5em auto;
   }
 
-  .grid-4 {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-column-gap: 5px;
-    max-width: 700px;
-    justify-items: center;
-  }
-
   .padding-20 {
     padding: 0.5em;
   }
@@ -766,6 +757,17 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 991px) {
+  .spacer {
+    height: 100px;
+    background-image: url("../src/assets/company-logo/594d4f77e5a0d74fa13993b12bfb5c13bc17ff16.png"),
+      url("../src/assets/company-logo/dcee2570ef522bfe4cec7caa994de1b30978d288.png"),
+      url("../src/assets/company-logo/e07092cdf1f84e5c3f2819bef8482ce6227e8d7c.png"),
+      url("../src/assets/company-logo/e1ae149381bd153db85adb10e9c7ddd18bd57fec.png");
+    background-color: #ffffff;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-size: auto 40px;
+    background-position: 2% 50%, 30% 50%, 60% 50%, 95% 50%;
+  }
   .container {
     margin: 5% auto;
     max-width: 900px;
@@ -929,15 +931,6 @@
     margin: 2em auto;
   }
 
-  .grid-4 {
-    margin: 1em auto;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-column-gap: 5px;
-    max-width: 980px;
-    justify-items: center;
-  }
-
   .wrapper-sys {
     margin: 0 auto;
     max-width: 980px;
@@ -1007,5 +1000,16 @@
     grid-column-gap: 2em;
     grid-row-gap: 2em;
     max-width: 1080px;
+  }
+  .spacer {
+    height: 110px;
+    background-image: url("../src/assets/company-logo/594d4f77e5a0d74fa13993b12bfb5c13bc17ff16.png"),
+      url("../src/assets/company-logo/dcee2570ef522bfe4cec7caa994de1b30978d288.png"),
+      url("../src/assets/company-logo/e07092cdf1f84e5c3f2819bef8482ce6227e8d7c.png"),
+      url("../src/assets/company-logo/e1ae149381bd153db85adb10e9c7ddd18bd57fec.png");
+    background-color: #ffffff;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-size: auto 60px;
+    background-position: 2% 50%, 30% 50%, 60% 50%, 95% 50%;
   }
 }

@@ -2,7 +2,7 @@ import React from 'react'
 
 import star from '../../assets/icons/star.png'
 import sysops from '../../assets/brand/443c0f388e5b2e5c51e293d47400c9478d4dcf54.png'
-import label from '../../assets/brand/Path_2.svg'
+
 
 
 export default function Sysops() {
@@ -21,9 +21,6 @@ export default function Sysops() {
                 <div >
                     <div className='flex'><span className='author-name'>Brandon H</span>
                         <img className='star-style' src={star} alt='star'></img><img className='star-style' src={star} alt='star'></img><img className='star-style' src={star} alt='star'></img><img className='star-style' src={star} alt='star'></img><img className='star-style' src={star} alt='star'></img></div>
-                    <div>
-                        <img className='label hidden' src={label} alt='label'></img>
-                    </div>
                 </div>
 
             </div>
