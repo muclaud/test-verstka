@@ -19,8 +19,8 @@ export default function TryCloud() {
                     <p className='try-text'>Need more devices? </p>
                 </div>
                 <div className='padding-5'>
-                    <div className='button-blue button'>View Demo</div>
-                    <div className='button-white button'><span className='button-text'>Create Free Account</span></div>
+                    <div style={{margin: 5}} className='button-blue button'>View Demo</div>
+                    <div style={{margin: 5}} className='button-white button'><span className='button-text'>Create Free Account</span></div>
 
                 </div>
                 <div>
